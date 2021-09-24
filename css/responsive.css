@@ -1,0 +1,54 @@
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {  }
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .title-header{
+        font-size: 5rem;
+    }
+    .subtitle-header{
+        font-size: 2.5rem;
+        text-transform: uppercase;
+    }
+    .txt-about{
+        font-size: 1.5rem;
+    }
+    .txt-agenda{
+        font-size: 1.75rem; 
+    }
+    #expect{
+        width: 100%;
+        min-height: 80vh;
+        position: relative;
+        background-image: url(../img/Colores.png);
+        background-size: 12%;
+        background-repeat: no-repeat;
+        background-position: right center; 
+    }
+    .title-expect{
+        font-size: 4rem;
+    }
+    .animate-arrows{
+        width: 800px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+    #speakers-bg{
+        background-position: left top, right bottom;
+        background-size: 17%;
+    
+    }
+    .modal-content {
+        background-image: url(../img/bg-speakers2.png);
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: 25%;
+    }
+ }
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
+/* Extra large devices (large desktops, 1366px and up)*/
+@media (min-width: 1366px) {  }
